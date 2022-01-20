@@ -1,3 +1,4 @@
 TODO
 create simple visualization, either console or graphic based
+    * use 2d array of 15 element arrays to store positions
 on your own, create a search algo
