@@ -1,1 +1,3 @@
 TODO
+create simple visualization, either console or graphic based
+on your own, create a search algo
