@@ -98,7 +98,7 @@ function countMarbles()
 function searchJumpers(board, gap)
 {
     /* Get possible jumpers */
-    validJumps = [];
+    let validJumps = [];
     [gap.row - 2, gap.row, gap.row + 2].forEach((row) => 
     {
         if(row >= 0 && row < board.length) // Only check rows inside the board
