@@ -22,12 +22,14 @@ import itertools  # probably could get away without itertools
 
 def visualize(board):
     rowCount = len(board)
-    for r in range(rowCount):
+    for row_index in range(rowCount):
         output = ""
-        for margin in itertools.repeat("  ", rowCount - r):  # add margins
+        # Add margins
+        for margin in itertools.repeat("  ", rowCount - row_index):
             output += margin
-        for i in range(len(board[r])):
-            output += board[r][i] + "  "  # Add marble or gap
+        # Add marble or gap
+        for column_index in range(len(board[row_index])):
+            output += board[row_index][column_index] + "  "
         print(output)  # Print row
     print("")
 
