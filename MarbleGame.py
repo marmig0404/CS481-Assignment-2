@@ -20,14 +20,14 @@ from itertools import repeat # probably could get away without itertools
 #   Takes an input of a 2D array or strings with a triangular structure.
 #   See example use in __main__
 
-def visualize(board):
-    rowCount = len(board)
-    for row_index in range(rowCount):
+def visualize(game_board):
+    row_count = len(game_board)
+    for row_index in range(row_count):
         # Add margins
-        output = "".join(repeat("  ", rowCount - row_index))
+        output = "".join(repeat("  ", row_count - row_index))
         # Add marble or gap
-        for column_index in range(len(board[row_index])):
-            output += board[row_index][column_index] + "  "
+        for column_index in range(len(game_board[row_index])):
+            output += game_board[row_index][column_index] + "  "
         print(output)  # Print row
     print("")
 
@@ -37,16 +37,16 @@ def visualize(board):
 #   to a triangular array for printing.
 
 def changeArrayShape(board_in_line):
-    triangularBoard = []
+    triangular_board = []
     num_of_rows = 5
-    board_in_line_index = 0
+    board_in_line_index = 0 
     for row_index in range(num_of_rows + 1):
         row = []
         for _ in range(row_index):
             row.append(board_in_line[board_in_line_index])
             board_in_line_index += 1
-        triangularBoard.append(row)
-    return triangularBoard
+        triangular_board.append(row)
+    return triangular_board
 
 # __main__ function:
 #   Example usage of the visualize function.
@@ -55,16 +55,16 @@ if __name__ == '__main__':
     GAP = '_'
 
     # Using triangular array
-    gameBoard = [
+    game_board = [
         [MARBLE],
         [MARBLE, MARBLE],
         [MARBLE, GAP, MARBLE],
         [MARBLE, MARBLE, MARBLE, MARBLE],
         [MARBLE, MARBLE, MARBLE, MARBLE, MARBLE],
     ]
-    visualize(gameBoard)
+    visualize(game_board)
 
     # Using single row array
-    gameBoard = [MARBLE, MARBLE, MARBLE, MARBLE, GAP, MARBLE, MARBLE,
+    game_board = [MARBLE, MARBLE, MARBLE, MARBLE, GAP, MARBLE, MARBLE,
                  MARBLE, MARBLE, MARBLE, MARBLE, MARBLE, MARBLE, MARBLE, MARBLE]
-    visualize(changeArrayShape(gameBoard))
+    visualize(changeArrayShape(game_board))
