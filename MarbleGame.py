@@ -12,7 +12,7 @@
 
 
 # imports
-import itertools  # probably could get away without itertools
+from itertools import repeat # probably could get away without itertools
 
 
 # visualize function:
@@ -23,10 +23,8 @@ import itertools  # probably could get away without itertools
 def visualize(board):
     rowCount = len(board)
     for row_index in range(rowCount):
-        output = ""
         # Add margins
-        for margin in itertools.repeat("  ", rowCount - row_index):
-            output += margin
+        output = "".join(repeat("  ", rowCount - row_index))
         # Add marble or gap
         for column_index in range(len(board[row_index])):
             output += board[row_index][column_index] + "  "
