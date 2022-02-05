@@ -1,0 +1,256 @@
+[[0 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+ [1 0 1 1 1 1 1 1 1 1 1 1 1 1 1]
+ [1 1 0 1 1 1 1 1 1 1 1 1 1 1 1]
+ [1 1 1 0 1 1 1 1 1 1 1 1 1 1 1]
+ [1 1 1 1 0 1 1 1 1 1 1 1 1 1 1]
+ [1 1 1 1 1 0 1 1 1 1 1 1 1 1 1]
+ [1 1 1 1 1 1 0 1 1 1 1 1 1 1 1]
+ [1 1 1 1 1 1 1 0 1 1 1 1 1 1 1]
+ [1 1 1 1 1 1 1 1 0 1 1 1 1 1 1]
+ [1 1 1 1 1 1 1 1 1 0 1 1 1 1 1]
+ [1 1 1 1 1 1 1 1 1 1 0 1 1 1 1]
+ [1 1 1 1 1 1 1 1 1 1 1 0 1 1 1]
+ [1 1 1 1 1 1 1 1 1 1 1 1 0 1 1]
+ [1 1 1 1 1 1 1 1 1 1 1 1 1 0 1]
+ [1 1 1 1 1 1 1 1 1 1 1 1 1 1 0]]
+--- Starting board: ---
+          _  
+        O  O  
+      O  O  O  
+    O  O  O  O  
+  O  O  O  O  O  
+
+-- Number of states examined: 1,263,420 --
+-- Largest state tree at any point: 3389.55 kB --
+          _  
+        _  _  
+      _  _  _  
+    _  _  _  _  
+  _  _  O  _  _  
+
+-- Took 214.43 s to find solution. --
+--- Starting board: ---
+          O  
+        _  O  
+      O  O  O  
+    O  O  O  O  
+  O  O  O  O  O  
+
+-- Number of states examined: 656,206 --
+-- Largest state tree at any point: 1880.80 kB --
+          _  
+        _  _  
+      _  _  O  
+    _  _  _  _  
+  _  _  _  _  _  
+
+-- Took 75.91 s to find solution. --
+--- Starting board: ---
+          O  
+        O  _  
+      O  O  O  
+    O  O  O  O  
+  O  O  O  O  O  
+
+-- Number of states examined: 656,206 --
+-- Largest state tree at any point: 1671.78 kB --
+          _  
+        _  _  
+      O  _  _  
+    _  _  _  _  
+  _  _  _  _  _  
+
+-- Took 75.85 s to find solution. --
+--- Starting board: ---
+          O  
+        O  O  
+      _  O  O  
+    O  O  O  O  
+  O  O  O  O  O  
+
+-- Number of states examined: 2,506,876 --
+-- Largest state tree at any point: 7010.57 kB --
+          _  
+        _  _  
+      O  _  _  
+    _  _  _  _  
+  _  _  _  _  _  
+
+-- Took 701.07 s to find solution. --
+--- Starting board: ---
+          O  
+        O  O  
+      O  _  O  
+    O  O  O  O  
+  O  O  O  O  O  
+
+-- Number of states examined: 322,324 --
+-- Largest state tree at any point: 927.56 kB --
+          _  
+        _  _  
+      _  _  _  
+    _  _  _  _  
+  _  _  O  _  _  
+
+-- Took 27.06 s to find solution. --
+--- Starting board: ---
+          O  
+        O  O  
+      O  O  _  
+    O  O  O  O  
+  O  O  O  O  O  
+
+-- Number of states examined: 2,506,876 --
+-- Largest state tree at any point: 7010.57 kB --
+          _  
+        _  _  
+      _  _  O  
+    _  _  _  _  
+  _  _  _  _  _  
+
+-- Took 702.01 s to find solution. --
+--- Starting board: ---
+          O  
+        O  O  
+      O  O  O  
+    _  O  O  O  
+  O  O  O  O  O  
+
+-- Number of states examined: 656,206 --
+-- Largest state tree at any point: 1671.78 kB --
+          _  
+        _  _  
+      _  _  _  
+    _  _  _  _  
+  _  _  O  _  _  
+
+-- Took 74.91 s to find solution. --
+--- Starting board: ---
+          O  
+        O  O  
+      O  O  O  
+    O  _  O  O  
+  O  O  O  O  O  
+
+-- Number of states examined: 322,324 --
+-- Largest state tree at any point: 927.56 kB --
+          _  
+        _  _  
+      _  _  O  
+    _  _  _  _  
+  _  _  _  _  _  
+
+-- Took 27.10 s to find solution. --
+--- Starting board: ---
+          O  
+        O  O  
+      O  O  O  
+    O  O  _  O  
+  O  O  O  O  O  
+
+-- Number of states examined: 322,324 --
+-- Largest state tree at any point: 927.56 kB --
+          _  
+        _  _  
+      O  _  _  
+    _  _  _  _  
+  _  _  _  _  _  
+
+-- Took 27.08 s to find solution. --
+--- Starting board: ---
+          O  
+        O  O  
+      O  O  O  
+    O  O  O  _  
+  O  O  O  O  O  
+
+-- Number of states examined: 656,206 --
+-- Largest state tree at any point: 1671.78 kB --
+          _  
+        _  _  
+      _  _  _  
+    _  _  _  _  
+  _  _  O  _  _  
+
+-- Took 75.08 s to find solution. --
+--- Starting board: ---
+          O  
+        O  O  
+      O  O  O  
+    O  O  O  O  
+  _  O  O  O  O  
+
+-- Number of states examined: 1,263,420 --
+-- Largest state tree at any point: 3389.55 kB --
+          _  
+        _  _  
+      _  _  O  
+    _  _  _  _  
+  _  _  _  _  _  
+
+-- Took 214.55 s to find solution. --
+--- Starting board: ---
+          O  
+        O  O  
+      O  O  O  
+    O  O  O  O  
+  O  _  O  O  O  
+
+-- Number of states examined: 656,206 --
+-- Largest state tree at any point: 1671.78 kB --
+          _  
+        _  _  
+      _  _  _  
+    _  _  _  _  
+  _  O  _  _  _  
+
+-- Took 76.29 s to find solution. --
+--- Starting board: ---
+          O  
+        O  O  
+      O  O  O  
+    O  O  O  O  
+  O  O  _  O  O  
+
+-- Number of states examined: 2,506,876 --
+-- Largest state tree at any point: 7010.57 kB --
+          _  
+        _  _  
+      _  _  _  
+    _  _  _  _  
+  _  _  O  _  _  
+
+-- Took 698.01 s to find solution. --
+--- Starting board: ---
+          O  
+        O  O  
+      O  O  O  
+    O  O  O  O  
+  O  O  O  _  O  
+
+-- Number of states examined: 656,206 --
+-- Largest state tree at any point: 1671.78 kB --
+          _  
+        _  _  
+      _  _  O  
+    _  _  _  _  
+  _  _  _  _  _  
+
+-- Took 75.63 s to find solution. --
+--- Starting board: ---
+          O  
+        O  O  
+      O  O  O  
+    O  O  O  O  
+  O  O  O  O  _  
+
+-- Number of states examined: 1,263,420 --
+-- Largest state tree at any point: 3389.55 kB --
+          _  
+        _  _  
+      _  _  _  
+    _  _  _  _  
+  _  O  _  _  _  
+
+-- Took 214.27 s to find solution. --
+-- Average time to complete 218.62 s

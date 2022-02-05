@@ -1,0 +1,16 @@
+--- Starting board: ---
+          O  
+        O  O  
+      O  _  O  
+    O  O  O  O  
+  O  O  O  O  O  
+
+--- Solved board: ---
+-- Number of states examined: 322,324 --
+-- Largest state tree at any point: 901.14 kB --
+          _  
+        _  _  
+      _  _  _  
+    _  _  _  _  
+  _  _  O  _  _  
+
